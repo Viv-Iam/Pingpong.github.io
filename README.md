@@ -13,7 +13,7 @@
 - Wrote a code using the below specs;
 
 ## Specifications
-Behavior                  Input Example             Output example
--------------------------:------------------------:-------------
+Behavior--------:Input Example----------:Output example
+
 
 ## [Programming Profile] (<>)
