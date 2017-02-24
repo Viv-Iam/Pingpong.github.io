@@ -1,25 +1,26 @@
-$(document).ready(function(){
-  $("form").submit(function(event){
-    event.preventDefault();
-    $("#list").empty();
-    var input = parseInt($("#input1").val());
+$(document).ready(function() {
+    $("form").submit(function(event) {
+        event.preventDefault();
+        $("#list").empty();
+        var input = parseInt($("#input1").val());
 
-for (var i = 1; i <=input; i++ ) {
- if (i % 3 === 0) {
- if (i % 5 === 0) {
-       $("#list").append("<li>pingpong</li>");
-    } else {
-     $("#list").append("<li>ping</li>");
-    }
-   } else if (i % 5 === 0) {
-    $("#list").append("<li>pong</li>");
-   } else {
-    $("#list").append("<li>" + i + "</li>");
-  }
-}
+        for (var i = 1; i <= input; i++) {
+            if (i % 3 === 0) {
+                if (i % 5 === 0) {
+                  //outputs in a list
+                    $("#list").append("<li>pingpong</li>");
+                } else {
+                    $("#list").append("<li>ping</li>");
+                }
+            } else if (i % 5 === 0) {
+                $("#list").append("<li>pong</li>");
+            } else {
+                $("#list").append("<li>" + i + "</li>");
+            }
+        }
 
-    $("#output").show();
-  });
+        $("#output").show();
+    });
 });
 
 //   if((num % 3 === 0) && (num % 5 === 0)){

@@ -1,9 +1,26 @@
 h1 {
+    text-align: center;
+}
+h3 {
+  border: 2px;
+  border-style: dashed;;;
+  border-radius: 5px;
+  width: 250px;
   text-align: center;
+  height: 50px;
 }
-#output {
-  display: none;
-}
+
 #pipong {
-  float: left;
+    float: left;
+}
+
+.row {
+height: 500px;
+}
+
+.jumbotron {
+  background-color: pink;
+}
+.game {
+  float: right;
 }
