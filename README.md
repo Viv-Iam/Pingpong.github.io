@@ -15,13 +15,13 @@
 - Wrote a code using the below specs;
 
 ## Specifications
-
-##Behavior             Input Example             Output Example
-
-
-
-
--Not take alphabets    "a"                        
-
-
+- Program should not take decimals
+- Program should not take alphabets
+- Program should not take number below 1
+- Program should loop through counter from 1 to input
+- Program should out-put ping when input divisible by 3
+- Program should out-put pong when input divisible by 5
+- Program should out-put pingpong when input divisible by 3
+- Program should loop through counter from 1 to input
+                     
 ## [Programming Profile] (<>)
