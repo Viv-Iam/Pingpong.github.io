@@ -16,8 +16,12 @@
 
 ## Specifications
 
-#Behavior             Input Example             Output Example
-Not take alphabets    "a"                        
+##Behavior             Input Example             Output Example
+
+
+
+
+-Not take alphabets    "a"                        
 
 
 ## [Programming Profile] (<>)
