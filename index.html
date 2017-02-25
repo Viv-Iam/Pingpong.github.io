@@ -9,40 +9,49 @@
     <script src="js/scripts.js"></script>
 </head>
 
+
+
 <body>
-    <div class="jumbotron">
-        <h1>PING PONG</h1></div>
-    <div class="row">
+    <div class="jumbotron sec1">
+      <!-- <p>0 === 3 %_________% 5 === 0</p>
+      <h2><span class="vline">___|  |___<div class="arrow-left"></div></span></h2> -->
+        <h1><span class="l-line">___</span><br><span class="v-line">||</span><br><span class="ping">
+        <strike>P</strike><span class="i">I</span><strike>NG</strike></span><br><strike>P</strike>O<strike>NG</strike></br><h1>||<br>___</h1></div>
+    <div class="row sec2">
         <div class="col-sm-3 about">
             <h3>ABOUT</h3>
-              <p>Created by;Opondoh Awino</p>
-              <p>Github Username/URL:Viv-Iam</p>
-              <p>Level 2 Test for:Java</p>
-      </div>
-      <div class="col-sm-3 rules">
-    <h3>RULES</h3>
+            <p>Created by;Opondoh Awino</p>
+            <p>Github Username/URL:Viv-Iam</p>
+            <p>Level 2 Test for:Java</p>
+        </div>
+        <div class="col-sm-3 rules">
+            <h3>RULES</h3>
             <p>Ping Pong will count up to your number from 1 with the following expectations:</p>
             <ol>
                 <li>Numbers divisible by 3 become "ping"</li>
                 <li>Numbers divisible by 5 become "pong"</li>
                 <li>Numbers divisible by 3 and 5 become "pingpong"</li>
         </div>
-        <div class="col-sm-6 game container">
+
+        <div class="col-sm-6 container game">
+            <!--PLACED THIS SECTION IN CONTAINER SO THAT OUTPUT IS CONTAINED-->
+
 
             <form class="form-inline">
-              <h3>LET'S PLAY</h3>
+                <h3>LET'S PLAY</h3>
                 <div class="form-group">
                     <input type="number" class="form-control" placeholder="Number" id="input1">
                 </div>
                 <button type="submit" class="btn btn-default">Ping Pong!</button>
 
             </form>
-          </div>
 
-        <div id="output">
-            <ul id="list"></ul>
+
+            <div id="output">
+                <ul id="list"></ul>
+            </div>
         </div>
-        </div>
+    </div>
 </body>
 
 </html>

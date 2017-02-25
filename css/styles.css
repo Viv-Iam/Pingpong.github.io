@@ -1,39 +1,62 @@
 h1 {
     text-align: center;
 }
+h2 {
+  text-align: center;
+  padding-right: 50px;
+}
 h3 {
   border: 2px;
-  border-style: dashed;;;
+  border-style: dashed;
   border-radius: 5px;
   width: 250px;
   height: 50px;
   text-align: center;
-}
-#play {
-  text-align: right;
-}
-
-
-/*#pipong {
-    float: left;
-    margin-left: 100px;
-}*/
-
-.row {
-height: 500px;
+  padding-top: 11px;
 }
 
 .jumbotron {
   background-color: pink;
+  width: 100%;
 }
+.l-line {
+padding-left: 120px;
 
 }
-/*.game {
-  text-align: right;*/
+.v-line {
+  padding-right: 50px;
 }
-/*li {
-  text-align: right;
+.about {
+width: 25%;
 }
-#output {
-  text-align: right;
-}*/
+.rules {
+width: 25%;
+}
+.game {
+width: 50%;
+}
+.sec2 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.i {
+  /*border-style: solid;*/
+
+}
+.ping {
+  border-bottom: 2px;
+  border-bottom: solid;
+  border-color: black;
+}
+p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/*.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;*/
