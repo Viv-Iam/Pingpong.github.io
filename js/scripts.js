@@ -22,7 +22,7 @@ $(document).ready(function() {
         $("#output").show();
     });
 });
-$("h1").lettering();
+//$("h1").lettering();
 //   if((num % 3 === 0) && (num % 5 === 0)){
 //     return ("pingpong");
 //   } else {
