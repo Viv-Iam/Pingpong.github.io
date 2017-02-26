@@ -58,12 +58,87 @@ p {
   text-align: center;
   margin-bottom: 0px;
 }
+.pi {
+  padding-left: 170px;
+}
+.po {
+  padding-left: 150px;
+}
+.pipo {
+  padding-left: 75px;
+}
+/*THIS ANIMATES SPECIFIED ELEMENTS IN THIS CASE MOVES I AND O WITH SPECIFIED DISTANCE*/
+@keyframes example {
+    0%   {color:white; left:0px; bottom:0px;}
+    25%  {color:purple; left:0px; bottom:50px;}
+    50%  {color:orange; left:200px; bottom:50px;}
+    75%  {color:blue; left:200px; bottom:0px;}
+    100% {color:red; left:0px; bottom:0px;}
+  }
+#i {
+  position: relative;
+  color: white;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+}
+@keyframes example1 {
+    0%   {color:white; left:0px; top:0px;}
+    25%  {color:purple; left:0px; top:50px;}
+    50%  {color:orange; left:190px; top:50px;}
+    75%  {color:blue; left:190px; top:0px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+    #o {
+      position: relative;
+      color: white;
+      animation-name: example1;
+      animation-duration: 10s;
+      animation-iteration-count: 3;
+    }
+    @keyframes three {
+        from {background-color: white;}
+        to {background-image: url("../img/formula.png");}
+    }
+    /*THIS STYLE ANIMATES THE RULES TO APPEAR AND DISAPPEAR BY MANIPULATING TIME AND COLOR*/
+    .three {
+      width: 300px;
+      height: 600px;
+      color: white;
+      animation-name: three;
+      animation-duration: 4s;
+      animation-delay: 6s;
+      color: white;
 
+    }
+    .five {
+      width: 100px;
+      height: 100px;
+      color: white;
+      animation-name: three;
+      animation-duration: 4s;
+      animation-delay: 16s;
+      color: white;
 
-/*.arrow-left {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+        }
 
-  border-right:10px solid blue;*/
+        .fifteen {
+          width: 100px;
+          height: 100px;
+          color: white;
+          animation-name: three;
+          animation-duration: 4s;
+          animation-delay: 26s;
+          color: white;
+
+        }
+        @keyframes dash {
+            from {color: white;}
+            to {color: black;}
+          }
+          .dash {
+            color: white;
+            animation-name: dash;
+            animation-duration: 24s;
+            animation-delay: 6s;
+            color: white;
