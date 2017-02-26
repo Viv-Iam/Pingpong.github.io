@@ -1,78 +1,71 @@
 * {
   margin: 0px:
   padding: 0px;
-  /*overflow-x: hidden;*/
-
+/*overflow: hidden;*/
+/*background-color: white;*/
 }
-h1 {
-    text-align: left;
-    padding-left: 200px;
-}
-h2 {
-  text-align: center;
-  padding-right: 50px;
-}
-h3 {
+/*.jumbotron {
+  background-image: url("../img/circle.gif");
+  width: 100%
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}*/
+/*h3 {
   border: 2px;
   border-style: dashed;
   border-radius: 5px;
   width: 250px;
   text-align: center;
-  padding-top: 11px;
-}
-
-.jumbotron {
-  background-color: white;
-  width: 100%;
+}*/
+.logo {
+  margin-left: 0px;
+  text-align: center;
+  border: solid;
+  border-color: transparent;
+  height: 655px;
+  width: 500px;
+  padding-top: 190px;
+  padding-left: 20px;
+  background-image: url("../img/circle.gif");
+  color: black
+  font-weight: bold;
+  color: #7a1f5c;
 }
 .dash {
-  padding-left: 60px;
+padding-left: 45px;
+padding-top: 250px;
+}
+.input {
+  border-bottom: solid;
 }
 
-.rulez {
-  font-size: 40px;
-}
-.about {
-width: 25%;
-}
-.rules {
-width: 50%;
-}
-.game {
-width: 25%;
-}
-.sec2 {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-.i {
-  /*border-style: solid;*/
-
-}
 .ping {
   border-bottom: 2px;
   border-bottom: solid;
   border-color: black;
 }
-p {
-  text-align: center;
-  margin-bottom: 0px;
-}
 .pi {
-  padding-left: 170px;
+  padding-left: 110px;
 }
-.po {
-  padding-left: 150px;
+three {
+  padding-top: 20px;
 }
-.pipo {
-  padding-left: 75px;
-}
+/*.fifteen {
+  padding-top: 1000px;
+}*/
+/*.about {
+  text-align: right;
+  padding-right: 100px;
+  margin: 0px;
+  padding-top: 0px;
+}*/
 /*THIS ANIMATES SPECIFIED ELEMENTS IN THIS CASE MOVES I AND O WITH SPECIFIED DISTANCE*/
 @keyframes example {
     0%   {color:white; left:0px; bottom:0px;}
-    25%  {color:purple; left:0px; bottom:50px;}
-    50%  {color:orange; left:200px; bottom:50px;}
-    75%  {color:blue; left:200px; bottom:0px;}
+    25%  {color:purple; left:0px; bottom:100px;}
+    50%  {color:orange; left:300px; bottom:100px;}
+    75%  {color:#99003d; left:300px; bottom:0px;}
     100% {color:red; left:0px; bottom:0px;}
   }
 #i {
@@ -84,9 +77,9 @@ p {
 }
 @keyframes example1 {
     0%   {color:white; left:0px; top:0px;}
-    25%  {color:purple; left:0px; top:50px;}
-    50%  {color:orange; left:190px; top:50px;}
-    75%  {color:blue; left:190px; top:0px;}
+    25%  {color:purple; left:0px; top:100px;}
+    50%  {color:orange; left:295px; top:100px;}
+    75%  {color:#99003d; left:295px; top:0px;}
     100% {color:red; left:0px; top:0px;}
   }
     #o {
@@ -96,10 +89,20 @@ p {
       animation-duration: 10s;
       animation-iteration-count: 3;
     }
-    @keyframes three {
-        from {background-color: white;}
-        to {background-image: url("../img/formula.png");}
-    }
+@keyframes three {
+        /*from {color: transparent;}
+        to {color: purple;}*/
+        0%   {color:white; left:0px; top:0px;}
+        25%  {color:purple;}
+        50%  {color:orange;}
+        75%  {color:blue; }
+        100% {color:red; left:0px; top:0px;}
+      }
+      /*  0%   {color:transparent;}
+        25%  {color:purple;}
+        50%  {color:transparent;}
+        75%  {color:transparent;}
+        100% {color:pink;}*/
     /*THIS STYLE ANIMATES THE RULES TO APPEAR AND DISAPPEAR BY MANIPULATING TIME AND COLOR*/
     .three {
       width: 300px;
@@ -108,17 +111,15 @@ p {
       animation-name: three;
       animation-duration: 4s;
       animation-delay: 6s;
-      color: white;
 
     }
-    .five {
+    /*.five {
       width: 100px;
       height: 100px;
       color: white;
       animation-name: three;
       animation-duration: 4s;
       animation-delay: 16s;
-      color: white;
 
         }
 
@@ -129,16 +130,14 @@ p {
           animation-name: three;
           animation-duration: 4s;
           animation-delay: 26s;
-          color: white;
 
-        }
+        }*/
         @keyframes dash {
-            from {color: white;}
-            to {color: black;}
+            from {color: transparent;}
+            to {color: #99003d;}
           }
           .dash {
-            color: white;
             animation-name: dash;
             animation-duration: 24s;
             animation-delay: 6s;
-            color: white;
+            color: transparent;
