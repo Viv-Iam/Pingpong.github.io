@@ -1,9 +1,10 @@
-* {
-  margin: 0px:
-  padding: 0px;
-/*overflow: hidden;*/
-/*background-color: white;*/
+    * {
+    margin: 0px: padding: 0px;
+    /*overflow: hidden;*/
+    /*background-color: white;*/
 }
+
+
 /*.jumbotron {
   background-image: url("../img/circle.gif");
   width: 100%
@@ -11,52 +12,60 @@
   background-repeat: no-repeat;
   height: 500px;
 }*/
+
+
 /*h3 {
   border: 2px;
   border-style: dashed;
   border-radius: 5px;
-  width: 250px;
-  text-align: center;
-}*/
-.logo {
-  margin-left: 0px;
-  text-align: center;
-  border: solid;
-  border-color: transparent;
-  height: 655px;
-  width: 500px;
-  padding-top: 190px;
-  padding-left: 20px;
-  background-image: url("../img/circle.gif");
-  color: black
-  font-weight: bold;
-  color: #7a1f5c;
-}
-.dash {
-  padding-left: 45px;
-  padding-top: 120px;
-}
-.input {
-  border-bottom: solid;
 
+}*/
+
+.logo {
+    margin-left: 0px;
+    text-align: center;
+    border: solid;
+    border-color: transparent;
+    height: 655px;
+    width: 500px;
+    padding-top: 190px;
+    padding-left: 20px;
+    background-image: url("../img/circle.gif");
+    color: black font-weight: bold;
+    color: #7a1f5c;
 }
+
+.dash {
+    padding-left: 45px;
+    padding-top: 120px;
+}
+
+.input {
+    border-bottom: solid;
+}
+
 .ping {
-  border-bottom: 2px;
-  border-bottom: solid;
-  border-color: black;
+    border-bottom: 2px;
+    border-bottom: solid;
+    border-color: black;
 }
+
 .pi {
-  padding-left: 30px;
+    padding-left: 30px;
 }
+
 .po {
-  padding-left: 50px;
+    padding-left: 50px;
 }
+
 .pipo {
-padding-left: 30px;
+    padding-left: 30px;
 }
+
 three {
-  padding-top: 20px;
+    padding-top: 20px;
 }
+
 
 /*.about {
   text-align: right;
@@ -64,84 +73,154 @@ three {
   margin: 0px;
   padding-top: 0px;
 }*/
+
+
 /*THIS ANIMATES SPECIFIED ELEMENTS IN THIS CASE MOVES I AND O WITH SPECIFIED DISTANCE*/
+
 @keyframes example {
-    0%   {color:white; left:0px; bottom:0px;}
-    25%  {color:purple; left:0px; bottom:100px;}
-    50%  {color:orange; left:300px; bottom:100px;}
-    75%  {color:#99003d; left:300px; bottom:0px;}
-    100% {color:red; left:0px; bottom:0px;}
-  }
-#i {
-  position: relative;
-  color: white;
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: 3;
-}
-@keyframes example1 {
-    0%   {color:white; left:0px; top:0px;}
-    25%  {color:purple; left:0px; top:100px;}
-    50%  {color:orange; left:295px; top:100px;}
-    75%  {color:#99003d; left:295px; top:0px;}
-    100% {color:red; left:0px; top:0px;}
-  }
-    #o {
-      position: relative;
-      color: white;
-      animation-name: example1;
-      animation-duration: 10s;
-      animation-iteration-count: 3;
+    0% {
+        color: white;
+        left: 0px;
+        bottom: 0px;
     }
+    25% {
+        color: purple;
+        left: 0px;
+        bottom: 100px;
+    }
+    50% {
+        color: orange;
+        left: 300px;
+        bottom: 100px;
+    }
+    75% {
+        color: #99003d;
+        left: 300px;
+        bottom: 0px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+        bottom: 0px;
+    }
+}
+
+#i {
+    position: relative;
+    color: white;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example1 {
+    0% {
+        color: white;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        color: purple;
+        left: 0px;
+        top: 100px;
+    }
+    50% {
+        color: orange;
+        left: 295px;
+        top: 100px;
+    }
+    75% {
+        color: #99003d;
+        left: 295px;
+        top: 0px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#o {
+    position: relative;
+    color: white;
+    animation-name: example1;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+}
+
 @keyframes three {
-        /*from {color: transparent;}
+    /*from {color: transparent;}
         to {color: purple;}*/
-        0%   {color:white; left:0px; top:0px;}
-        25%  {color:purple;}
-        50%  {color:orange;}
-        75%  {color:blue; }
-        100% {color:red; left:0px; top:0px;}
-      }
-      /*  0%   {color:transparent;}
+    0% {
+        color: white;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        color: purple;
+    }
+    50% {
+        color: orange;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+/*  0%   {color:transparent;}
         25%  {color:purple;}
         50%  {color:transparent;}
         75%  {color:transparent;}
         100% {color:pink;}*/
-    /*THIS STYLE ANIMATES THE RULES TO APPEAR AND DISAPPEAR BY MANIPULATING TIME AND COLOR*/
-    .three {
-      width: 300px;
-      height: 600px;
-      color: white;
-      animation-name: three;
-      animation-duration: 6s;
-      animation-delay: 6s;
 
+
+/*THIS STYLE ANIMATES THE RULES TO APPEAR AND DISAPPEAR BY MANIPULATING TIME AND COLOR*/
+
+.three {
+    width: 300px;
+    height: 600px;
+    color: white;
+    animation-name: three;
+    animation-duration: 6s;
+    animation-delay: 6s;
+}
+
+.five {
+    width: 100px;
+    height: 100px;
+    color: white;
+    animation-name: three;
+    animation-duration: 4s;
+    animation-delay: 16s;
+}
+
+.fifteen {
+    width: 100px;
+    height: 100px;
+    color: white;
+    animation-name: three;
+    animation-duration: 4s;
+    animation-delay: 26s;
+}
+
+@keyframes dash {
+    from {
+        color: #99003d;
     }
-    .five {
-      width: 100px;
-      height: 100px;
-      color: white;
-      animation-name: three;
-      animation-duration: 4s;
-      animation-delay: 16s;
+    to {
+        color: pink;
+    }
+}
 
-        }
-
-        .fifteen {
-          width: 100px;
-          height: 100px;
-          color: white;
-          animation-name: three;
-          animation-duration: 4s;
-          animation-delay: 26s;
-
-        }
-        @keyframes dash {
-            from {color:  #99003d;}
-            to {color: transparent;}
-          }
-          .dash {
-            animation-name: dash;
-            animation-duration: 24s;
-            animation-delay: 6s;
-            color: transparent;
+.dash {
+    animation-name: dash;
+    animation-duration: 24s;
+    animation-delay: 6s;
+    color: pink;
