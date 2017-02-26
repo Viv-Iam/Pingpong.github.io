@@ -7,16 +7,45 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
+<style>/*THIS ANIMATES SPECIFIED ELEMENTS IN THIS CASE MOVES I AND O WITH SPECIFIED DISTANCE*/
+@keyframes example {
+    0%   {color:black; left:0px; bottom:0px;}
+    25%  {color:purple; left:0px; bottom:50px;}
+    50%  {color:orange; left:200px; bottom:50px;}
+    75%  {color:blue; left:200px; bottom:0px;}
+    100% {color:red; left:0px; bottom:0px;}
+}
+strong {
+  position: relative;
+  color: black;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes example1 {
+    0%   {color:black; left:0px; top:0px;}
+    25%  {color:purple; left:0px; top:50px;}
+    50%  {color:orange; left:200px; top:50px;}
+    75%  {color:blue; left:200px; top:0px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+    em {
+      position: relative;
+      color: black;
+      animation-name: example1;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+</style>
 </head>
 
-
-
 <body>
-    <div class="jumbotron sec1">
-      <!-- <p>0 === 3 %_________% 5 === 0</p>
-      <h2><span class="vline">___|  |___<div class="arrow-left"></div></span></h2> -->
-        <h1><span class="l-line">___</span><br><span class="v-line">||</span><br><span class="ping">
-        <strike>P</strike><span class="i">I</span><strike>NG</strike></span><br><strike>P</strike>O<strike>NG</strike></br><h1>||<br>___</h1></div>
+    <div class="sec1 jumbotron">
+        <h1>
+          <!--<span class="tline">0 === 3 %||% 5 === 0</span><br>-->
+          <span class="ping"><strike>P</strike><strong>I</strong><strike>NG</strike></span><br>
+          <strike>P</strike><em>O</em><strike>NG</strike><br>
+          <!--<span class="bline">ping||pong</span>--></h1></div>
     <div class="row sec2">
         <div class="col-sm-3 about">
             <h3>ABOUT</h3>
@@ -24,16 +53,19 @@
             <p>Github Username/URL:Viv-Iam</p>
             <p>Level 2 Test for:Java</p>
         </div>
-        <div class="col-sm-3 rules">
+        <div class="col-sm-6 rules">
             <h3>RULES</h3>
             <p>Ping Pong will count up to your number from 1 with the following expectations:</p>
-            <ol>
+            <p><strike>P</strike>I<strike>NG</strike>(% 3 === 0)(% 5 === 0)<br>
+              <strike>P</strike>O<strike>NG</strike>ping pong</p>
+            <!--<ol>
                 <li>Numbers divisible by 3 become "ping"</li>
                 <li>Numbers divisible by 5 become "pong"</li>
                 <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+              </ol>-->
         </div>
 
-        <div class="col-sm-6 container game">
+        <div class="col-sm-3 container game">
             <!--PLACED THIS SECTION IN CONTAINER SO THAT OUTPUT IS CONTAINED-->
 
 

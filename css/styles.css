@@ -1,5 +1,11 @@
+* {
+  margin: 0px:
+  padding: 0px;
+  /*overflow-x: hidden;*/
+
+}
 h1 {
-    text-align: center;
+    text-align: left;
 }
 h2 {
   text-align: center;
@@ -10,30 +16,30 @@ h3 {
   border-style: dashed;
   border-radius: 5px;
   width: 250px;
-  height: 50px;
   text-align: center;
   padding-top: 11px;
 }
 
 .jumbotron {
-  background-color: pink;
+  background-color: white;
   width: 100%;
 }
-.l-line {
-padding-left: 120px;
-
-}
-.v-line {
+.tline {
   padding-right: 50px;
+  color: white;
+}
+.bline {
+  padding-right: 35px;
+  color: white;
 }
 .about {
 width: 25%;
 }
 .rules {
-width: 25%;
+width: 50%;
 }
 .game {
-width: 50%;
+width: 25%;
 }
 .sec2 {
   padding-top: 0px;
@@ -52,6 +58,7 @@ p {
   text-align: center;
   margin-bottom: 0px;
 }
+
 
 /*.arrow-left {
   width: 0;
