@@ -7,17 +7,21 @@
 ## This Project entails;
 
 - Writing a code that loops through a counter from 1 to the input number and having the output as "ping" for numbers divisible by 3, "pong" for numbers divisible by 5 and "pingpong" for numbers divisible by 15.
+_Example Input: 5_ _Output: 1, 2, ping, 4, pong_
 
-## **To set up this project I;**
-
-- Created a form with a submit button using bootstrap
-- Styled my form on CSS
-- Wrote a code using the below specs;
 
 ## Specifications
 
 #Behavior             Input Example             Output Example
 Not take alphabets    "a"                        
 
+#Technologies Used:
+- HTML
+- CSS
+- JavaScript
 
-## [Programming Profile] (<>)
+
+## History
+
+Created on 24th February 2017
+
